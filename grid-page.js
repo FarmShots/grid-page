@@ -106,7 +106,7 @@ angular.module('gridPage', [])
                                     if ($scope.control.canPlace(x, 0, component, page, width, height)) {
                                         component.x = x;
                                         component.y = 0;
-                                        component.page = i;
+                                        component.page = startPage + i;
                                         page.push(component);
                                         return true;
                                     }
