@@ -23,7 +23,7 @@
     "tests"
   ],
   "dependencies": {
-    "interact": "^1.2.6",
+    "interact": "1.2.6",
     "jquery": "^1.8"
   }
 }
